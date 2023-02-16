@@ -55,7 +55,28 @@ table {
   border-spacing: 0;
 }
 
-.body {
-  background-color: red;
+html {
+  width: 1000px;
+  height: 100%;
+}
+
+body {
+  width: 800px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.wrapper {
   width: 767px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: red;
+}
+
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 300px;
 }

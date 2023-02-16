@@ -5,8 +5,6 @@
 // variables
 
 @import "utils/variables";
-@import "utils/variables";
-@import "utils/variables";
 
 // mixins
 
@@ -29,3 +27,6 @@
 
 // home.scss
 @import "pages/home";
+
+// typography
+@import "base/typography"
