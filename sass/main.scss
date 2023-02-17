@@ -1,30 +1,31 @@
-// base
-
-@import "base/reset";
-@import "base/typography";
-
 // utils
 
 @import "utils/variables";
 @import "utils/mixins";
 @import "utils/placeholders";
 
+// base
+
+@import "base/reset";
+@import "base/typography";
+
+// components
+
+@import "components/buttons";
+@import "components/icons";
+@import "components/navigation";
+
 // layout
 
 @import "layout/header";
-@import "layout/footer";
 @import "layout/section-search";
 @import "layout/section-reservation";
 @import "layout/functioning";
 @import "layout/restaurants";
+@import "layout/footer";
 
-// components
+// pages
 
-@import "components/navigation";
-@import "components/buttons";
-@import "components/icons";
-
-// home.scss
 @import "pages/home";
 
 
