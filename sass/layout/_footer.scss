@@ -1,0 +1,8 @@
+.footer {
+    width: 375px;
+    height: 197px;
+    background: $color-dark;
+    &__logo {
+        color: $color-light;
+    }
+}

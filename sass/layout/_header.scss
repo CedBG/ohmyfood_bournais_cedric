@@ -1,0 +1,17 @@
+.header {
+    @extend %flex-center;
+    width: 375px;
+    height: 62px;
+    &__logo {
+        width: 166px;
+        height: 23px;
+        &__img {
+            width: 166px;
+            object-fit: cover;
+        }
+    }
+    &__icon {
+        width: 16px;
+        height: 16px;
+    }
+}

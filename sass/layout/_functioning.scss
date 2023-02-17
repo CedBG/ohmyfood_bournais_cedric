@@ -1,0 +1,10 @@
+.functioning {
+    width: 375px;
+    height: 440px;
+    &__card {
+        @include card;
+        background: $bg-color-primary;
+        width: 325px;
+        height: 75px;
+    }
+}

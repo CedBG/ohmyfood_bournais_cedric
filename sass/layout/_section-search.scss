@@ -1,0 +1,14 @@
+.search {
+    width: 375px;
+    height: 45px;
+    @extend %flex-center;
+    background: $bg-color-primary;
+    &__icon {
+        width: 16px;
+        height: 16px;
+    }
+    &__input {
+        width: 108px;
+        height: 16px;
+    }
+}

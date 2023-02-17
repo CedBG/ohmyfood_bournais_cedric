@@ -1,23 +1,22 @@
-// reset
+// base
 
 @import "base/reset";
+@import "base/typography";
 
-// variables
+// utils
 
 @import "utils/variables";
-
-// mixins
-
 @import "utils/mixins";
-
-// placeholders
-
 @import "utils/placeholders";
 
 // layout
 
 @import "layout/header";
 @import "layout/footer";
+@import "layout/section-search";
+@import "layout/section-reservation";
+@import "layout/functioning";
+@import "layout/restaurants";
 
 // components
 
@@ -28,5 +27,4 @@
 // home.scss
 @import "pages/home";
 
-// typography
-@import "base/typography"
+

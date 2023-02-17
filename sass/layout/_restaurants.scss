@@ -1,0 +1,14 @@
+.restaurants {
+    background: $bg-color-primary;
+    width: 375px;
+    height: 1227px;
+    &__card {
+        @include card;
+        width: 335px;
+        height: 253px;
+    }
+    &__img {
+        width: 335px;
+        height: 175px;
+    }
+}
