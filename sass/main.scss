@@ -1,13 +1,16 @@
+
+// base
+
+@import "base/reset";
+@import "base/typography";
+
 // utils
 
 @import "utils/variables";
 @import "utils/mixins";
 @import "utils/placeholders";
 
-// base
 
-@import "base/reset";
-@import "base/typography";
 
 // components
 
