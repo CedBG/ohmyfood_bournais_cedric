@@ -63,6 +63,8 @@ table {
   align-items: center;
 }
 
+/* header */
+
 .header {
   width: 375px;
   height: 62px;
@@ -74,6 +76,10 @@ table {
 .header__icon {
   width: 16px;
   height: 16px;
+}
+.header__logo__img {
+  width: 166px;
+  height: auto;
 }
 
 body {
@@ -90,6 +96,7 @@ body {
 img {
   object-fit: cover;
   width: 300px;
+  height: auto;
 }
 
 h1 {

@@ -1,7 +1,7 @@
 
 .reservation {
     background: $bg-color-tertiary;
-    width: 375px;
+    width: 234px;
     height: 285px;
     &__h1 {
         width: 230px;
@@ -15,9 +15,9 @@
 
 .reservation-btn {
     display: block;
-    @include card (5px, 5px, 3px, $color-dark);
     width: 218px;
     height: 50px;
+    @include card (5px, 5px, 3px, $color-dark);
     background: linear-gradient(to top left, $color-primary, $color-secondary);
     color: $color-light;
 }

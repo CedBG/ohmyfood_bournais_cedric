@@ -1,0 +1,13 @@
+.card__entrances {
+    @include card;
+    width: 348px;
+    height: 69px;
+    border: black 3px solid;
+    background: #000;
+}
+
+.entrances__underline {
+    background: $color-tertiary;
+    width: 40px;
+    height: 5px;
+}
