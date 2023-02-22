@@ -147,5 +147,21 @@ h3 {
 .footer {
   width: 375px;
   height: 197px;
-  background: black;
+  background: rgb(235, 214, 214);
+}
+
+.footer__logo__img {
+  color: white;
+  padding-top: 25px;
+}
+
+.footer__icon , .footer__p {
+  color: white;
+  padding-left: 25px;
+}
+
+.footer__link {
+  display: block;
+  width: 200px;
+  height: auto;
 }
